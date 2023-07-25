@@ -1,14 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
-import Listtask from './Listtask';
-import Addtask from './Addtask';
-import Task from './Task';
+import './App.css'
+import TaskList from './Components/TaskList';
+import Add from './Components/Add';
 function App() {
   return (
     <div className="App">
-      <Listtask/>
-      <Task/>
-      <Addtask/>
+      
+      <Add/>
+      <TaskList/>
     </div>
     
   );
